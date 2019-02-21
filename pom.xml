@@ -9,7 +9,7 @@
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
-        <url>https://github.com/guhe283/test2/tree/master/maven-art-15-deployment-remote</url>
+        <url>https://github.com/guhe283/test3</url>
         <tag>HEAD</tag>
     </scm>
 
