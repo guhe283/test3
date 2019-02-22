@@ -32,15 +32,15 @@
     <distributionManagement>
         <repository>
             <id>art-releases</id>
-            <url>http://nexus3:8081/repository/maven-releases/</url>
+            <url>http://aanexus3:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>art-snapshots</id>
-            <url>http://nexus3:8081/repository/maven-snapshots/</url>
+            <url>http://aanexus3:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <site>
             <id>art-site</id>
-            <url>dav:http://nexus3:8081/repository/site/${project.groupId}/${artifactId}</url>
+            <url>dav:http://aanexus3:8081/repository/site/${project.groupId}/${artifactId}</url>
         </site>
     </distributionManagement>
 
