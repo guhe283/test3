@@ -4,14 +4,14 @@
 
     <groupId>de.art.examples2.maven</groupId>
     <artifactId>deployment6</artifactId>
-    <version>2.0.9</version>
+    <version>2.0.10-SNAPSHOT</version>
 
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
         <url>https://github.com/guhe283/test3/tree/master/src</url>
 	    <!--<url>C:\Users\guhe.SDNET\.docker\jenkins_home\workspace\deploy6</url-->
-        <tag>de.art.examples2.maven-deployment6-2.0.9</tag>
+        <tag>HEAD</tag>
     </scm>
 
    <!-- <distributionManagement>
