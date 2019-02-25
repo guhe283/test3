@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.art.examples.maven</groupId>
-    <artifactId>deployment3</artifactId>
-    <version>1.0.22-SNAPSHOT</version>
+    <artifactId>deployment6</artifactId>
+    <version>1.0.25-SNAPSHOT</version>
 
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
