@@ -4,7 +4,7 @@
 
     <groupId>de.art.examples.maven</groupId>
     <artifactId>deployment-remote</artifactId>
-    <version>1.0.14-SNAPSHOT</version>
+    <version>1.0.21-SNAPSHOT</version>
 
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
