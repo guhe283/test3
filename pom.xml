@@ -4,13 +4,13 @@
 
     <groupId>de.art.examples2.maven</groupId>
     <artifactId>deployment6</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
         <url>https://github.com/guhe283/test3/tree/master/src</url>
-        <tag>HEAD</tag>
+        <tag>de.art.examples2.maven-deployment6-1.0.3</tag>
     </scm>
 
    <!-- <distributionManagement>
