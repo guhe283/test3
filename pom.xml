@@ -4,7 +4,7 @@
 
     <groupId>de.art.examples2.maven</groupId>
     <artifactId>deployment6</artifactId>
-    <version>2.0.8-SNAPSHOT</version>
+    <version>2.0.9-SNAPSHOT</version>
 
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
@@ -87,8 +87,8 @@
                     <tagNameFormat>
                         @{groupId}-@{project.artifactId}-@{project.version}
                     </tagNameFormat>
-					<localCheckout>false</localCheckout>
-					<pushChanges>false</pushChanges>
+					<localCheckout>true</localCheckout>
+					<pushChanges>true</pushChanges>
                     <providerImplementations>
                         <git>jgit</git>
                     </providerImplementations>
