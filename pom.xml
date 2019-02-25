@@ -9,7 +9,7 @@
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
-        <url>https://github.com/guhe283/test3</url>
+        <url>https://github.com/guhe283/test3/tree/master/src</url>
         <tag>HEAD</tag>
     </scm>
 
