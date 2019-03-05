@@ -47,7 +47,7 @@
         <maven.project.info.reports.plugin>2.9</maven.project.info.reports.plugin>
         <maven.release.plugin>2.5.3</maven.release.plugin>
         <maven.site.plugin>3.6</maven.site.plugin>
-        <maven.surefirereport.plugin>2.20.1</maven.surefirereport.plugin>
+        <maven.surefirereport.plugin>2.22.1</maven.surefirereport.plugin>
         <maven.taglist.plugin>2.4</maven.taglist.plugin>
         <maven.versions.plugin>2.5</maven.versions.plugin>
     </properties>
@@ -151,6 +151,7 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>${maven.surefirereport.plugin}</version>
                 <configuration>
+			<useSystemClassLoader>false</useSystemClassLoader>
                     <outputName>surefire-report</outputName>
                     <showSuccess>true</showSuccess>
                 </configuration>
