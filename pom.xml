@@ -49,7 +49,7 @@
         <maven.site.plugin>3.6</maven.site.plugin>
         <!--<maven.surefirereport.plugin>2.22.1</maven.surefirereport.plugin>-->
 	    <!--surefire-3.0.0-M3-->
-	     <maven.surefirereport.plugin>3.0.0-M3</maven.surefirereport.plugin>
+	     <maven.surefirereport.plugin>3.0.0-M6</maven.surefirereport.plugin>
         <maven.taglist.plugin>2.4</maven.taglist.plugin>
         <maven.versions.plugin>2.5</maven.versions.plugin>
     </properties>
