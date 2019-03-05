@@ -170,6 +170,7 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>${maven.surefirereport.plugin}</version>
                 <configuration>
+		<useSystemClassLoader>false</useSystemClassLoader>
                     <outputName>surefire-report</outputName>
                     <showSuccess>true</showSuccess>
                 </configuration>
