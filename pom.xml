@@ -59,7 +59,7 @@
         <maven.javadoc.plugin>2.10.4</maven.javadoc.plugin>
         <maven.jdepend.plugin>2.0</maven.jdepend.plugin>
         <maven.jgit.plugin>1.9.5</maven.jgit.plugin>
-	<!--<maven.jgit.plugin> 1.11.1</maven.jgit.plugin>--Y
+	<!--<maven.jgit.plugin> 1.11.1</maven.jgit.plugin>-->
         <maven.jxr.plugin>2.5</maven.jxr.plugin>
         <maven.project.info.reports.plugin>2.9</maven.project.info.reports.plugin>
         <maven.release.plugin>2.5.3</maven.release.plugin>
