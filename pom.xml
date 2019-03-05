@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>de.art.examples2.maven</groupId>
-    <artifactId>deployment6</artifactId>
-    <version>2.0.8-SNAPSHOT</version>
-
+    <groupId>de.art.examples4.maven</groupId>
+    <artifactId>deployment4</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
-        <url>https://github.com/guhe283/test3/tree/master/src</url>
+        <url>https://github.com/guhe283/test3/tree/master</url>
 	    <!--<url>C:\Users\guhe.SDNET\.docker\jenkins_home\workspace\deploy6</url-->
         <tag>HEAD</tag>
     </scm>
@@ -60,7 +58,8 @@
         <maven.findbugs.plugin>3.0.5</maven.findbugs.plugin>
         <maven.javadoc.plugin>2.10.4</maven.javadoc.plugin>
         <maven.jdepend.plugin>2.0</maven.jdepend.plugin>
-        <maven.jgit.plugin>1.9.5</maven.jgit.plugin>
+        <!--<maven.jgit.plugin>1.9.5</maven.jgit.plugin>-->
+	<maven.jgit.plugin> 1.11.1</maven.jgit.plugin>
         <maven.jxr.plugin>2.5</maven.jxr.plugin>
         <maven.project.info.reports.plugin>2.9</maven.project.info.reports.plugin>
         <maven.release.plugin>2.5.3</maven.release.plugin>
