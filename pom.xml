@@ -151,7 +151,8 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>${maven.surefirereport.plugin}</version>
                 <configuration>
-			<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+		<useSystemClassLoader>false</useSystemClassLoader>
+		<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
                     <outputName>surefire-report</outputName>
                     <showSuccess>true</showSuccess>
                 </configuration>
