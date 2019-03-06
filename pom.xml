@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.art.examples.maven</groupId>
     <artifactId>deployment-remote-3</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
         <url>https://github.com/guhe283/test3/tree/master</url>
 	    <!--<url>C:\Users\guhe.SDNET\.docker\jenkins_home\workspace\deploy6</url-->
-        <tag>de.art.examples.maven-deployment-remote-3-1.0.4</tag>
+        <tag>de.art.examples.maven-deployment-remote-3-1.0.1</tag>
     </scm>
 
   <distributionManagement>
