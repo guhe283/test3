@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.art.examples.maven</groupId>
     <artifactId>deployment-remote-3</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
    <scm>
         <developerConnection>scm:git:https://github.com/guhe283/test3.git</developerConnection>
         <connection>scm:git:https://github.com/guhe283/test3.git</connection>
